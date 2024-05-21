@@ -1,72 +1,168 @@
 *{
-   box-sizing: border-box;
-}
-body{
-    font-family: "Montserrat", sans-serif;
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+     font-family: "Montserrat", sans-serif;
+     margin: 0;
+     padding: 0;
+ 
+ 
+ }
+ 
+ #product-overview {
+     background: url('freedom.jpg');
+     width: 100%;
+     height: 528px;
+     padding: 10px;
+    
+ 
+ }
+ 
+ #product-overview h1{
+     color: white;
+     font-family: "Anton", sans-serif;
+ }
+ 
+ .section-title{
+     color:green;
+     font-family: inherit;
+    text-align: center;
+ }
+ 
+ /* h1{
+     color: white;
+     font-family: "Anton", sans-serif;} */
+ 
+ h1{
+     font-family: Arial, Helvetica, sans-serif;
+ }
 
-
-}
-
-#product-overview {
-    background-color: red;
-    width: 100%;
-    /* height: 528px; */
-    padding: 10px;
-   
-
-}
-
-#product-overview h1{
-    color: white;
-    font-family: "Anton", sans-serif;
-}
-
-.section-title{
-    color:green;
-    font-family: inherit;
-}
-
-/* h1{
-    color: white;
-    font-family: "Anton", sans-serif;} */
-
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-}
-.main-heading{
-    background-color: #2ddf5c;
-    padding:  8px 16px;
-    width:100% 
-}
-.main-heading >div{
+.plan{
+    background: #d5ffdc;
+    width: 30%;
+    padding: 30px;
+    margin: 20px 0px;
     display: inline-block;
+    margin: 8px;
+    text-align: center;
+    vertical-align: middle;
 }
-.main-heading__brand{
-    text-decoration: none;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    
+.plan--higlighted{
+    background: #118630;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0,0.5);
+   color: white;
 }
-.main-nav{
-    display: inline-block;
-    text-align: right;
-    width: calc(100% - 74px);
-    
+/* below css style is used for the main heading styling ...... */
+.plan--recommended{
+    background: white;
+    color: #19b84c;
+    padding: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    text-align: center;
 }
-.main-nav__items{
-    margin: 0;
+.plan__features{
     padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.plan__features li{
+    margin: 8px 0px;
+}
+.plan__title
+{
+ color: #0e4f1f;
+}
+.plan__price{
+    color: #858585;
+
+}
+.plan--higlighted .plan__title{
+    color: white;
     
 }
-.main-nav__item{
-    text-decoration: none;
-   display: inline-block;
-   padding: 5px;
+
+.plan--higlighted .plan__price{
+    color: #0e4f1f;
+    
 }
-.main-nav__item a{
-    text-decoration: none;
-   
+
+ .main-heading{
+     background-color: #2ddf5c;
+     padding:  8px 16px;
+     width:100% 
+ }
+ .main-heading >div{
+     display: inline-block;
+     vertical-align: middle;
+ }
+ .main-heading__brand{
+     text-decoration: none;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 22px;
+     font-weight: bold;
+     color: #0e4f1f;
+
+     
+ }
+ .main-nav{
+     display: inline-block;
+     text-align: right;
+     width: calc(100% - 74px);
+     vertical-align: middle;
+     
+ }
+ .main-nav__items{
+     margin: 0;
+     padding: 0;
+     
+ }
+ .main-nav__item{
+     text-decoration: none;
+    display: inline-block;
+    margin: 0px 16px;
+    
+ }
+ .main-nav__item a{
+     text-decoration: none;
+     color: #0e4f1f;
+     font-weight: bold;
+     padding: 3px 0px;
+ }
+ .main-nav__item :hover,
+ .main-nav__item :active
+ {
+     color: white;
+     border-bottom: 2px solid white;
+ }
+ .main-nav__item--cta a{
+     color: white;
+     background: #ff1b68;
+     padding: 8px 16px;
+     border-radius: 8px;
+ }
+ .main-nav__item--cta a:hover,
+ .main-nav__item--cta a :active{
+     background-color: white;
+     color: #ff1b68;
+     border: none;
+ }
+ .main-nav__item--cta a {
+    color: white;
+    background: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color: #ff1b68;
+    background: white;
+    border: none;
+}
+a.active{
+    border-radius: 2px solid red;
+   text-decoration: none;
+    font-size: 30px;
 }
