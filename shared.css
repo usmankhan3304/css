@@ -1,0 +1,155 @@
+
+*{
+    box-sizing: border-box;
+ }
+ body{
+     font-family: "Montserrat", sans-serif;
+     margin: 0;
+     padding: 0;
+ 
+ 
+ }
+/* Main header goes here now  */
+
+.main-header{
+    background-color: #2ddf5c;
+    padding:  8px 16px;
+    width:100% 
+}
+
+.main-header > div 
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-header__brand{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #0e4f1f;
+
+    
+}
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 74px);
+    vertical-align: middle;
+    
+}
+.main-nav__items{
+    margin: 0;
+    padding: 0;
+    
+}
+.main-nav__item{
+    text-decoration: none;
+   display: inline-block;
+   margin: 0px 16px;
+   
+}
+.main-nav__item a{
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0px;
+}
+.main-nav__item :hover,
+.main-nav__item :active
+{
+    color: white;
+    border-bottom: 2px solid white;
+}
+.main-nav__item--cta a{
+    color: white;
+    background: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a :active{
+    background-color: white;
+    color: #ff1b68;
+    border: none;
+}
+.main-nav__item--cta a {
+   color: white;
+   background: #ff1b68;
+   padding: 8px 16px;
+   border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+   color: #ff1b68;
+   background: white;
+   border: none;
+}
+a.active{
+   border-radius: 2px solid red;
+  text-decoration: none;
+   font-size: 30px;
+}
+
+
+/* main Footer goes here!! */
+.main-footer{
+   background-color: black;
+   color: white;
+   margin-top: 50px;
+   padding: 30px;
+  }
+.main-footer__links{
+   list-style: none;
+   text-align: center;
+   padding: 0;
+   margin: 0;
+}
+.main-footer__link{
+   margin: 0px 16px;
+   display: inline-block;
+   vertical-align: middle;
+}
+.main-footer__link a{
+   text-decoration: none;
+   color: white;
+   font-family: inherit;
+   font-weight: bold;
+}
+.main-footer__link a:hover,
+.main-footer__link a:active{
+   color:#ccc;
+}
+
+/* End of the main header here!!!!! */
+
+/* main Footer goes here!! */
+.main-footer{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    padding: 30px;
+   }
+.main-footer__links{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.main-footer__link{
+    margin: 0px 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-footer__link a{
+    text-decoration: none;
+    color: white;
+    font-family: inherit;
+    font-weight: bold;
+}
+.main-footer__link a:hover,
+.main-footer__link a:active{
+    color:#ccc;
+}
